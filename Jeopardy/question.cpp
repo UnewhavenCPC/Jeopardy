@@ -1,4 +1,4 @@
-//Question.cpp Created by Computer Programming Club
+//Question.cpp created by Computer Programming Club
 #include "question.hpp"
 
 #include <iostream>

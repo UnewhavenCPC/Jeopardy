@@ -1,4 +1,4 @@
-// main.cpp
+// Main.cpp Created By Computer Programming Club
 #include "question.hpp"
 #include <iostream>
 using namespace std;
