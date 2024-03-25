@@ -1,14 +1,31 @@
-//
-//  main.cpp
-//  Jeopardy
-//
-//  Created by Shannon Russell on 3/25/24.
-//
-
+// main.cpp
+#include "question.hpp"
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    vector<vector<Question>> board = setupGame();
+    bool gameOver = false;
+
+    cout << "Welcome to the Jeopardy Game! Select a category and a point value to answer a question.\n";
+
+    while (!gameOver) {
+        displayBoard(board);
+        handleQuestion(board);
+
+        // Check if all questions have been answered
+        gameOver = true;
+        for (const auto& cat : board) {
+            for (const auto& q : cat) {
+                if (!q.isAnswered()) {
+                    gameOver = false;
+                    break;
+                }
+            }
+            if (!gameOver) break;
+        }
+    }
+
+    cout << "\nGame over. Thanks for playing!\n";
     return 0;
 }

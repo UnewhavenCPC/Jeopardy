@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FBF3E1202BB1FF200055F9D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBF3E11F2BB1FF200055F9D6 /* main.cpp */; };
+		FBF3E1282BB1FF950055F9D6 /* question.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBF3E1262BB1FF950055F9D6 /* question.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		FBF3E11C2BB1FF200055F9D6 /* Jeopardy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Jeopardy; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF3E11F2BB1FF200055F9D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FBF3E1262BB1FF950055F9D6 /* question.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = question.cpp; sourceTree = "<group>"; };
+		FBF3E1272BB1FF950055F9D6 /* question.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = question.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				FBF3E11F2BB1FF200055F9D6 /* main.cpp */,
+				FBF3E1262BB1FF950055F9D6 /* question.cpp */,
+				FBF3E1272BB1FF950055F9D6 /* question.hpp */,
 			);
 			path = Jeopardy;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF3E1202BB1FF200055F9D6 /* main.cpp in Sources */,
+				FBF3E1282BB1FF950055F9D6 /* question.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
