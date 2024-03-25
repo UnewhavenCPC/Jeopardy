@@ -27,7 +27,7 @@ A step by step series of examples that tell you how to get a development environ
 1. **Clone the repository or download the source code**
 
 ```bash
-git clone [(https://github.com/UnewhavenCPC/Jeopardy.git)]
+git clone https://github.com/UnewhavenCPC/Jeopardy.git
 ```
 
 2. **Navigate to the game directory**
@@ -60,7 +60,7 @@ Feel free to fork the repository and submit pull requests. Whether it's adding n
 
 ## Authors
 
-- **Shannon Russell** - *Programmer* - [srussell3271]([https://github.com/YourGitHub](https://github.com/srussell3271))
+- **Shannon Russell** - *Programmer* - [srussell3271](https://github.com/srussell3271)
 - **CPC** - *Organization* - [UnewhavenCPC](https://github.com/UnewhavenCPC)
 ## License
 
